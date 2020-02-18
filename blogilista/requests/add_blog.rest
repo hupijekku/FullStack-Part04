@@ -1,9 +1,11 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3QiLCJpZCI6IjVlNGJmNGI1NjMwNzM5MjVlY2RhMmE5OCIsImlhdCI6MTU4MjAzNzIzOX0.mgYYHWsxiauaHsMQa9vjfmnPOwDJyD0ZzFfy-MEES-I
 
 {
     "title": "Pekka2",
     "author": "1123",
     "url": "ddddede",
-    "likes": "102"
+    "likes": "102",
+    "userId": "5e4be60335c2b412309a0e25"
 }
